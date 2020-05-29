@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import Counter from "./counter";
+import PopUp from "./popup";
 
 class Counters extends Component {
   render() {
     console.log("Counters-Rendered");
     const {
-      onReset,
       counters,
+      onReset,
       onDelete,
       onIncrement,
       onDecrement,

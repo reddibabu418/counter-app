@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PopUp from "./popup";
 class Counter extends Component {
   // state = {
   //   value: this.props.counter.value,
